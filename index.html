@@ -1,55 +1,132 @@
-<!---html 5 standartı--->
 <!DOCTYPE html>
-<!---Dİl--->
-<lang="en">
+<html lang="en">
 <head>
-    <!---Dik karakterinde bozukluğu önlemek--->
+     <!---Dik karakterinde bozukluğu önlemek--->
     <meta charset="UTF-8">
     <!---Responsive design--->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!---SEO--->
+     <!---SEO--->
     <title>İntroduction</title>
     <meta name="author" content="Mustafa Çolak">
-     <meta name="keyword" content="html5">
-     <meta name="description" content="for html5 learning">
+    <meta name="keyword" content="html5">
+    <meta name="description" content="for html5 learning">
 
+    <!-- favicon -->
+    <link rel="icon" href="bulutlar.png" type="image/png">
 
 <!-- Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <!-- <Google Font -->
-<link href="https://fonts.googleapis.com/css2?family=Alyamama:wght@300..900&family=Archivo+Black&family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
-<style>
-body{
+    <link href="https://fonts.googleapis.com/css2?family=Alyamama:wght@300..900&family=Archivo+Black&family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
     
-  font-family: "Fira Code", monospace;
-}
-</style>
+    <style>
+    body{
+      font-family: "Fira Code", monospace;
+    }
+    </style>
 
-
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alyamama:wght@300..900&family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alyamama:wght@300..900&family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <noscript>your browser doesnt suppor Javascript</noscript>
-<!-- starts code -->
+    
+    <!-- starts code -->
+     
+     <!-- Audio -->
+      <audio width=""100% height="250" controls>
+        <source src="../xyz.mp3" type="audio/mpeg">
+        <source src="../xyz.ogg" type="audio/ogg">
+        </audio>
+     <hr>
+     <!-- video -->
+     <video width="100%" height="250" controls>
+        <source src="../xyz.mp4" type="video/mp4">
+        <source src="../xyz.ogg" type="video/ogg">
+     </video>
+
+<!-- List -->
+ <!-- Tanımlı Liste() -->
+  <dl>
+    <dt>Frontend</dt>
+    <dd>HTML5</dd>
+    <dd>CSS3</dd>
+
+    <br>
+    <dt> Backend</dt>
+    <dd>Java</dd>
+    <dd>Node Js</dd>
+</dl>
+
+  <hr>
+<!-- Düzensiz Liste (Unordered list) -->
+ <!-- ol>li{item - $}*4 -->
+<ul>
+    <li>item - 1</li>
+    <li>item - 2</li>
+    <li>item - 3</li>
+    <li>item - 4</li>
+</ul>
+<hr>
+
+<!-- Düzenli liste (ordered list) -->
+ <!-- ol>li{item - $}*4 -->
+ <ol start ="5" type="A">
+<li>item -1</li>
+ <li>item -2</li>
+ <li>item -3</li>
+ <li>item -4</li>
+</ol>
+ <ol type="I">
+<li>item -1</li>
+ <li>item -2</li>
+ <li>item -3</li>
+ <li>item -4</li>
+</ol>
+ <ol type="i">
+<li>item -1</li>
+ <li>item -2</li>
+ <li>item -3</li>
+ <li>item -4</li>
+</ol>
+ <ol type="a">
+<li>item -1</li>
+ <li>item -2</li>
+ <li>item -3</li>
+ <li>item -4</li>
+</ol>
+ <ol type="1">
+<li>item -1</li>
+ <li>item -2</li>
+ <li>item -3</li>
+ <li>item -4</li>
+</ol>
+
+
+
+ </ol>
+
+
+
+
  <!-- Google font -->
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam modi, quis impedit, molestias repellendus nisi quia, earum laboriosam fugit qui aut accusamus. Nobis mollitia fugiat animi explicabo atque cupiditate autem!
-  Dolores quaerat ducimus quidem modi distinctio officia, repellendus excepturi adipisci repudiandae odit recusandae inventore officiis non dignissimos tenetur dicta soluta aspernatur incidunt quod reprehenderit dolor, voluptas mollitia ab corporis. Laudantium?
-  </p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam modi, quis impedit, molestias repellendus nisi quia, earum laboriosam fugit qui aut accusamus. Nobis mollitia fugiat animi explicabo atque cupiditate autem!
+ Dolores quaerat ducimus quidem modi distinctio officia, repellendus excepturi adipisci repudiandae odit recusandae inventore officiis non dignissimos tenetur dicta soluta aspernatur incidunt quod reprehenderit dolor, voluptas mollitia ab corporis. Laudantium?
+ </p>
+
  <!-- Emoji -->
-<p>&#128576</p>
+ <p>&#128576;</p>
+
 <!-- Data list -->
 <input list="miul_list" name="miul_backend"/>
 <datalist id="miul_list">
-<option value="Js">
-    <datalist value="css">
-        <option value="script">
-            </option>
-            </option>
+    <option value="Js"></option>
+    <option value="css"></option>
+    <option value="script"></option>
 </datalist>
 <hr>
-
 
 <!-- Optional -->
 <select name="frontend" id="frontend">
@@ -60,32 +137,36 @@ body{
     <option value="5"> NATİVE</option>
 </select>
 
-
 <!-- link + image -->
-<a href="youtube.com" target="_blank"><br>
+<a href="https://www.youtube.com" target="_blank"><br>
 <img src="saldırılar.png" alt="bu siber güvenlike resmidir"><br>
 </a>
 
 <!-- image -->
 <img src="saldırılar.png" alt="bu siber güvenlike resmidir"><br>
-
- <!-- <link -->
-    <a href="youtube.com">Youtube</a><br>
-  <a href="youtube.com" target="_blank">Youtube</a><br>
-
+  <!-- favicon -->
+<!-- iframe -->
+ <div style="width:100%">
+<iframe src="https://www.youtube.com/watch?v=sZXmKatBXi4&list=PLJs2uwWt_JEs8msJo2r_f20k4tjXAHEj2" width="100%" height="450" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <!-- map -->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.8936938953154!2d32.83437531568289!3d39.92505497942533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34f190a9cea8f%3A0xd3832b0c0bc50637!2sAn%C4%B1tkabir!5e0!3m2!1str!2str!4v1684323456789!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ <hr>
+<!-- <link -->
+<a href="https://www.youtube.com">Youtube</a><br>
+<a href="https://www.youtube.com" target="_blank">Youtube</a><br>
+   
   <!-- <email link -->
+  <a href="mailto:xyz@com">E-mail</a><br>
 
-<a href=""mailto:xyz@com">E-mail</a><br>
+  <!-- <Telephone link> -->
+<a href="tel:+90004454444">Telefon</a><br>
 
-<!-- <Telephone link> -->
-<a href=""tel:+90004454444">Telefon</a><br>
 <!-- whatsap Link -->
- <a href="https://wa.me/90004454444">Whatsapp</a><br>
- 
+<a href="https://wa.me/90004454444">Whatsapp</a><br>
 
 
-<!-- FORMATTER -->
-<b>Bold</b>
+ <!-- FORMATTER -->
+ <b>Bold</b>
 <br>
 <i>İtalik</i><br>
 <strong></strong><br>
@@ -111,10 +192,6 @@ log<sub>2</sub><br>
  </i>
 </b>
 
-
-
-
-
 <!--h${Heading-$}*6-->
 <H1>Heading-1</H1>
 <H2>Heading-2</H2>
@@ -122,25 +199,37 @@ log<sub>2</sub><br>
 <H4>Heading-4</H4>
 <H5>Heading-5</H5>
 <H6>Heading-6</H6>
+
 <!-- Paragraf -->
- <p>Merhabalar Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident deleniti ipsam placeat quam reprehenderit ratione minima dolor ut? Rerum, aliquam veritatis. Quod culpa quas, quis placeat fuga reiciendis dolorem omnis?
+<p>Merhabalar Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident deleniti ipsam placeat quam reprehenderit ratione minima dolor ut? Rerum, aliquam veritatis. Quod culpa quas, quis placeat fuga reiciendis dolorem omnis?
  Obcaecati consequuntur impedit, alias architecto suscipit sequi iure illo ullam nihil? Accusantium fuga aut itaque praesentium pariatur nihil, omnis minima modi quas quisquam optio harum voluptatem incidunt ducimus sequi esse?
  Doloribus provident accusamus reiciendis atque deleniti temporibus consequatur enim fugiat ipsum, debitis voluptatem natus, blanditiis nesciunt pariatur eos, id nostrum deserunt totam! At asperiores magni iusto quisquam, esse temporibus voluptates!
  Inventore quae harum voluptas odio cumque similique excepturi illo eum consequuntur iusto? Quae quasi, cumque suscipit obcaecati atque quod dolorem earum eaque? Nulla fugit quisquam labore ipsum, corporis repudiandae veritatis.</p>
 <hr>
 <br>
-<!-- <font></font> -->
- <i class = "fa-solid fa-magnifying-glass"></i>
 
- <!-- start semantic -->
+<!-- font -->
+<i class="fa-solid fa-magnifying-glass"></i>
+
+<!-- start semantic -->
  <header> </header>
    <header> </header>
  <main></main>
  <footer></footer>
+
  <!-- end semantic -->
 <!--Ends COde-->
-    
-</body>
+
+
+
+
+
+
+
+
+
+
+
+
+ </body>
 </html>
-
-
