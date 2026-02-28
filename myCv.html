@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benim Cv Formum</title>
+</head>
+<body>
+    <h1>Bilgi Formu </h1>
+
+    <form action="#" method="Post" id="cv_form_id">
+        <div> 
+        <label for="name">Adınız:</label>
+        <input type="text" id="name" name="name" required placeholder="Adınızı giriniz">
+        </div>
+        <br><br>
+
+        <div>
+        <label for="surname">Soyadınız:</label>
+        <input type="text" id="surname" name="surname" required placeholder="Soyadınızı giriniz">
+        </div>
+        <br><br>
+
+        <div>
+            <label for="department_id">Bölümünüz:</label>
+            <select id="department_id" name="department">
+                <option value="bilgisayar">Bilgisayar Mühendisliği</option>
+                <option value="yazilim">Yazılım Mühendisliği</option>
+                <option value="diger">Diğer</option>
+            </select>
+        </div>
+
+
+        <div>
+            <label>Cinsiyetiniz:</label>
+            <input type="radio" id="gender_female_id" name="gender" value="kadin">
+            <label for="gender_female_id">Kadın</label>
+            
+            <input type="radio" id="gender_male_id" name="gender" value="erkek">
+            <label for="gender_male_id">Erkek</label>
+        </div>
+        <br>
+
+       <div>
+            <label>Yetenekler:</label>
+            <input type="checkbox" id="skill_html_id" name="skills" value="html">
+            <label for="skill_html_id">HTML5</label>
+
+            <input type="checkbox" id="skill_css_id" name="skills" value="css">
+            <label for="skill_css_id">CSS3</label>
+
+            <input type="checkbox" id="skill_js_id" name="skills" value="js">
+            <label for="skill_js_id">JavaScript</label>
+        </div>
+        <br>
+
+       <div>
+            <label for="phone_id">Telefon numaranız:</label>
+            <input type="tel" id="phone_id" name="phone" placeholder="0555 555 55 55">
+        </div>
+        <br>
+
+        <div>
+            <label for="description_id">Açıklama:</label><br>
+            <textarea id="description_id" name="description" rows="5" cols="30" placeholder="Kendinizden bahsedin..."></textarea>
+        </div>
+        <br>
+
+        <button type="submit" id="submit_btn_id">Gönder</button>
+
+    </form>
+    
+</body>
+</html>
