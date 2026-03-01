@@ -23,7 +23,7 @@ p{
     color:hsl(0, 100%, 50%,0.9);
     background-color: black !important;
     background-color: red;
-
+    
     /* padding:10px 15px 20px 12px;
     padding:10px 20px 15px;
     padding:15px 20px; */
@@ -46,12 +46,12 @@ p{
 
     border:10px solid white;
 
+    text-shadow:1px 10px 5px red;
 }
-
 /*border border-radius*/
 #div_id{
     background-color:black;
-    border:10px solid white;
+    border:150px solid white;
     /* border-radius: 100px 10px 5px 30px; */
 
     padding:25px;
@@ -65,5 +65,27 @@ p{
     border-top-right-radius: 25px;
     border: bottom left radius 15px; ;
 
+    text-shadow:8px 10px 5px red;
+    text-align:center;
 
+}
+#parag_id4{
+    background-color:lightslategray;
+    color:black;
+    padding:25px;
+    font-style:italic;
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height:1.5;
+    padding-left:10px;
+    padding-right: 12px;
+    word-spacing: 7px;
+    letter-spacing: 2px;
+    border-bottom-right-radius:25px ;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 25px;
+    border: bottom left radius 15px; ;
+
+    text-shadow:8px 10px 5px white;
+    text-align:center;
 }
