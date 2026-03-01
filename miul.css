@@ -218,6 +218,7 @@ border-collapse: collapse;
     background-color:blue;
 }
     /* Rem, Em, Calc */
+
 /* html{
 font-size:18px;
 } */
@@ -228,6 +229,15 @@ body{
 .parag4{
 /* font-size:2rem; */
 font-size:2em; /*body içine yazılanın iki katını verir*/
-font-size: calc(2em + 40px);/* 2*body+40=60 px */
+/* font-size: calc(2em + 40px);2*body+40=60 px */
+}
 
+/* İmage */
+
+#image_id{
+background-image:url('miul.png');
+background-size:cover;
+width:50%;
+height:450px;
+/* object-fit:cover; */
 }
