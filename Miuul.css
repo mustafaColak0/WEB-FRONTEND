@@ -1,0 +1,129 @@
+/*
+Project Name: Miuul SPA
+Project Version: 1.0.0
+*/
+
+/* Font */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Root Ortak İsimlendirmeleri */
+:root{
+    --primary-color:red;
+    --secondary-color: #2ecc71;
+    --text-color: #333333;
+    --bg-color: #f4f4f4;
+}
+
+/* Universal Selected */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* HTML STİLLERİ */
+
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;/* Sayfa içi linklere tıklayınca yumuşak kaymasını sağlar */
+}
+
+/* Body STİLLERİ */
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6; /* Satırlar arası boşluğu açıp okumayı kolaylaştırır */
+}
+
+/* Paragraf Stilleri */
+p{
+    margin-bottom: 1rem;
+    text-align: justify;/* Metni dergi/gazete gibi iki yana yaslar */
+}
+
+/* Line Clamp Stilleri */
+
+.line-clamp-5{
+    display:-webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp-10 {
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp-15 {
+    display: -webkit-box;
+    -webkit-line-clamp: 15;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Header ve Responsive Arka Plan Resmi */
+
+header{
+    width: 100%;
+    height:100vh;/* Ekranın tüm yüksekliğini kaplar, istersen 500px gibi bir değer de verebilirsin */
+    /* Resim Ekleme */
+    background-image: url('roket.jpg');
+    /* Resmi Responsive Yapma Kodları */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* header_hl stilleri */
+#header_hl {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* header_parag stilleri */
+#header_parag {
+    text-transform: capitalize;
+}
+
+/* header_icon ortak buton stilleri */
+.header_icon {
+    padding: 10px 25px; /* Butonu şişirip şekil verir */
+    border: none;
+    border-radius: 5px; /* Köşeleri hafif yuvarlatır */
+    text-decoration: none; /* Linklerin altındaki çizgiyi kaldırır */
+    font-weight: bold;
+    display: inline-block; /* Yan yana düzgün durmalarını sağlar */
+    margin: 10px;
+}
+
+/* back_to_top stilleri */
+#back_to_top {
+    position: fixed; /* Butonu sayfada sabitler */
+    bottom: 20px; /* Aşağıdan 20px boşluk bırakır */
+    right: 20px; /* Sağdan 20px boşluk bırakır */
+    background-color: var(--primary-color); /* Kök değişkenlerimizden rengimizi aldık */
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px; /* Köşeleri hafif yuvarlatır */
+    z-index: 999; /* Sayfadaki diğer elementlerin hep üstünde görünmesini sağlar */
+}
+
+/* Footer stilleri */
+footer {
+    width: 100%; /* Genişlik stillendirme */
+    height: 60px; /* Yükseklik stillendirme */
+    background-color: var(--text-color); /* Arka plan stilleri (Koyu bir renk) */
+    color: #ffffff; /* Yazı stilleri (Beyaz yaptık ki okunsun) */
+    text-align: center; /* Yazıları ortalamak */
+    
+    /* Ekstra: Yazının dikey olarak da tam ortada durması için yüksekliğiyle aynı line-height veriyoruz */
+    line-height: 60px; 
+}
