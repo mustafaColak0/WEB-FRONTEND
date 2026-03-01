@@ -69,6 +69,7 @@ p{
     text-align:center;
 
 }
+/* Text,Text align,Font */
 #parag_id4{
     background-color:lightslategray;
     color:black;
@@ -88,4 +89,23 @@ p{
 
     text-shadow:8px 10px 5px white;
     text-align:center;
+}
+
+/* Column -count */
+.column-container{
+  column-count:3;
+  column-gap:20px;
+column-rule: 2px solid gray;
+text-align: justify;
+}
+/* line clamp */
+.line-clamp4{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical; 
+    overflow: hidden;
+/* other for browsers: */
+    display: -moz-box;
+    -moz-line-clamp: 4;
+    -moz-box-orient: vertical; 
 }
