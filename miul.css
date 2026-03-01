@@ -217,3 +217,17 @@ border-collapse: collapse;
 .custom_table tbody tr:nth-child(even){
     background-color:blue;
 }
+    /* Rem, Em, Calc */
+/* html{
+font-size:18px;
+} */
+body{
+    font-size:20px;
+}
+
+.parag4{
+/* font-size:2rem; */
+font-size:2em; /*body içine yazılanın iki katını verir*/
+font-size: calc(2em + 40px);/* 2*body+40=60 px */
+
+}
