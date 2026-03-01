@@ -265,7 +265,19 @@ padding: 22px;
 text-align:center;
 }
 
-
-
-
-
+.float_examples{
+    float:left;
+    margin-left:5px;
+}
+.clearfix::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+/* Clip path */
+#clip_path_id{
+    background-color: yellow;
+    min-height: 300px;
+    max-width:200px;
+    clip-path: polygon(0 0, 80% 0, 70% 100%, 0 90%);
+}
