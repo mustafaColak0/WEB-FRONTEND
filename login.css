@@ -94,7 +94,7 @@ input {
     padding: 1rem;
     padding-left: 1rem;
     background: rgb(189, 187, 187);
-    box-shadow:1px 5px 2px #3b3b3b,-8px -px 0px rgb(252, 252, 252);
+    box-shadow:inset 1px 5px 2px #3b3b3b,-8px -px 0px rgb(252, 252, 252);
     height:3rem;
 
 }
