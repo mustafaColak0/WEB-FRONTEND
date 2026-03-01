@@ -109,3 +109,34 @@ text-align: justify;
     -moz-line-clamp: 4;
     -moz-box-orient: vertical; 
 }
+/*link*/
+#yt_link{
+    color:blue;
+    text-decoration: none;
+    background-color: black;
+    padding:10px;
+}
+
+#yt_link:hover{
+    color:white;
+    text-decoration: none;
+    background-color: blue;
+    padding:9px;
+    width:50px;
+}
+.miuul_width_height{
+    color:white;
+    width:70%;
+    width:200px;
+    height:50px;
+    background-color: blue;
+    margin-top:10px;
+}
+.miuul_width_height:hover{
+
+    background-color: black;
+    color:blue;
+    cursor:pointer;
+    cursor:move;
+    cursor:text;
+}
