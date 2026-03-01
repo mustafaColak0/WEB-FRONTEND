@@ -162,3 +162,21 @@ text-align: justify;
     transform:scale(1.5), translate(100px, 50px);
     transform:skew(3deg,2deg);
 }
+
+/* Display_visibility box_sizing */
+*{
+    box-sizing: border-box; /*hepsi 200 px oluyor*/
+}
+.miuul_display{
+  display:block;
+  display:inline;
+  display:inline-block;
+  /* display:grid; */
+  /* display:flex; */
+  visibility: hidden;
+  visibility: visible;
+  border:6px solid black;
+  width:200px;
+  padding:20px;
+
+}
