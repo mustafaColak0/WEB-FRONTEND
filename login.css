@@ -6,7 +6,8 @@
 
 :root {
     --template_bg: #5b9bd5;
-    --template_color: white;
+    --template_form_bg:rgb(10, 70, 158);
+    --template_color: rgb(141, 11, 11);
 }
 
 html {
@@ -31,9 +32,9 @@ body {
     padding: 40px 30px;
     position: relative;
     width: 320px; 
-    background-color: #3b3b3b; 
+    background-color: #ededed; 
     border-radius: 30px;
-    box-shadow: 0px 0px 50px 40px rgba(255, 255, 255, 0.6);   
+    box-shadow: 0px 0px 8px 15px rgba(0, 0, 0, 0.6);   
 }
 
 /* Logo kutusu */
@@ -47,7 +48,8 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    border:2px solid red;
+    border:2px solid black;
+    box-shadow:10px 10px 25px #3b3b3b,-10px -10px 15px white;
 }
 
 /* logo img */
@@ -62,7 +64,7 @@ body {
     margin: 1rem 0 25px 0;
     font-weight: 500;
     letter-spacing: 1px;
-    color: white; 
+    color: black; 
 }
 
 /* Form içi elemanları tutan container */
@@ -81,26 +83,39 @@ label, input, button {
 }
 
 label {
-    color: white; /* Label'lar beyaz yapıldı */
+    color: rgb(248, 247, 247); /* Label'lar beyaz yapıldı */
     margin-top: 15px;
     margin-bottom: 5px;
 }
 
 input {
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 3rem;
+    padding: 1rem;
+    padding-left: 1rem;
+    background: rgb(189, 187, 187);
+    box-shadow:1px 5px 2px #3b3b3b,-8px -px 0px rgb(252, 252, 252);
+    height:3rem;
+
 }
 
 button {
+    margin-top:1rem;
     padding: 10px;
     background-color: #f1f1f1;
-    color: darkred;
-    font-weight: bold;
+    border-radius:2.5rem;
+    color: rgb(6, 0, 0);
     cursor: pointer;
+    transition: 0.8s;
+    background: #1DA1F2;
+    font-weight: 800px;
+    height:3rem;
+    box-shadow:1px 5px 5px #3b3b3b,-4px -4px 0px rgb(24, 22, 22);
 }
 
 button:hover {
-    background-color: #e2e2e2;
+    background-color: #966804;
+    box-shadow: none;
 }
 
 .login-link {

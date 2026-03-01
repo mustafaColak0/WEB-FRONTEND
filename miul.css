@@ -103,8 +103,10 @@ text-align: justify;
 .line-clamp4{
     display: -webkit-box;
     -webkit-line-clamp: 4;
+    line-clamp: 4;
     -webkit-box-orient: vertical; 
     overflow: hidden;
+
 /* other for browsers: */
     display: -moz-box;
     -moz-line-clamp: 4;
