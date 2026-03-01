@@ -180,3 +180,40 @@ text-align: justify;
   padding:20px;
 
 }
+/* Liste */
+.menu{
+    background-color: #333;
+    overflow:hidden;
+
+}
+.menu ul{
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+.menu li{
+    float:left;
+
+}
+.menu a{
+    display:block;
+    color:white;
+    text-align: center;
+    padding:15px 19px;
+    text-decoration: none;
+}
+
+/* table */
+.custom_table{
+width:100%;
+margin-top: 25px;
+border-collapse: collapse;
+}
+.custom_table td, .custom_table th{
+    border:1px solid #dd1;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+.custom_table tbody tr:nth-child(even){
+    background-color:blue;
+}
