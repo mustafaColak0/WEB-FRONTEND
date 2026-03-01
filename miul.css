@@ -1,0 +1,27 @@
+/* tag ile kullanımı*/
+p{
+    background-color:black;
+}
+
+/* id ile kullanımı*/
+#pr_id{
+    background-color:rgb(255, 166, 0);
+}
+
+/* class ile kullanımı*/
+.pr_class{
+    background-color:rgb(0, 255, 0);
+}
+
+/* color , background-color ,important*/
+#pr_id{
+    color:red;
+    color:red;
+    color:rgb(255, 17, 0);
+    color:hsl(0, 100%, 50%);
+    color:hsl(0, 100%, 50%,0.9);
+    margin-bottom:10px;
+    background-color: black !important;
+    background-color: red;
+}
+/*margin , padding*/
