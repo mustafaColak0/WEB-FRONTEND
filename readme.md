@@ -24,8 +24,9 @@ JavaScript Yorum Satırları:
 
 JavaScript
 // Single Comment
+/* Multiple Comment */
+
 Projeyi bilgisayarınıza indirmek için terminalinize şu kodu yazın veya sağ üstteki Code butonundan Download ZIP seçeneğine tıklayın:
 
 git clone [https://github.com/mustafaColak0/html_5.git](https://github.com/mustafaColak0/html_5.git)
-/* Multiple Comment */
 
