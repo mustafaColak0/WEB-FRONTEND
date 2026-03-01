@@ -141,3 +141,24 @@ text-align: justify;
     cursor:text;
 }
 /* Transaction,Transform,Box Shadow */
+
+.miuul_transition_transform{
+    background-color: lightblue;
+    color:white;
+   width:75%;
+    transition: all 0.5s ease-in-out;
+    padding:10px;
+    transition: width 1s ease-in-out 0.3s background-color 0.5s linear;
+    transition:3s all;
+
+
+}
+.miuul_transition_transform:hover{
+    background-color: black;
+    color:blue;
+    width:200px;
+    transform:rotate(360deg);
+    box-shadow: 10px 100px 15px red;
+    transform:scale(1.5), translate(100px, 50px);
+    transform:skew(3deg,2deg);
+}
