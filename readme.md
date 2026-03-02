@@ -28,5 +28,5 @@ JavaScript
 
 Projeyi bilgisayarınıza indirmek için terminalinize şu kodu yazın veya sağ üstteki Code butonundan Download ZIP seçeneğine tıklayın:
 
-git clone [https://github.com/mustafaColak0/html_5.git](https://github.com/mustafaColak0/html_5.git)
+git clone https://github.com/mustafaColak0/WEB-FRONTEND.git
 
