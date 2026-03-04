@@ -19,6 +19,62 @@
   
 <!-- start code -->
 
+<!-- Accordion -->
+
+<div
+  class="d-flex justify-content-center align-items-center"
+>
+  <div
+    class="spinner-border text-warning spinner-border-lg"
+    role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+</div>
+<hr>
+<p>
+  <hr>
+  <hr>
+
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button
+          class="accordion-button"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseOne"
+          aria-expanded="true"
+          aria-controls="collapseOne"
+        >
+          Accordion Item #1
+        </button>
+      </h2>
+      <div
+        id="collapseOne"
+        class="accordion-collapse collapse show"
+        aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample"
+      >
+        <div class="accordion-body">
+          This is the first item's accordion body.
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  <!-- Collapse -->
+  <a
+    class="btn btn-primary"
+    data-bs-toggle="collapse"
+    href="#contentId"
+    aria-expanded="false"
+    aria-controls="contentId">
+    Göster/Gizle
+  </a>
+</p>
+<div class="collapse" id="contentId"></div>
+
 <!-- off Canvas -->
 
 
