@@ -29,12 +29,13 @@ body {
 
 /* Ana form kutusu  */
 .miuul_login_form {
-    padding: 40px 30px;
+    padding: 1rem;
     position: relative;
-    width: 320px; 
+    width: 35rem; 
+    height:39rem;
     background-color: #ededed; 
     border-radius: 30px;
-    box-shadow: 0px 0px 8px 15px rgba(0, 0, 0, 0.6);   
+    box-shadow: 13px 13px 19px 15px,-13px -13px 21px  rgba(0, 0, 0, 0.6);   
 }
 
 /* Logo kutusu */
