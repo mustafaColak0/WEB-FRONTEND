@@ -19,8 +19,235 @@
   
 <!-- start code -->
 
-<!-- Navbar -->
 
+
+<!-- Navbar -->
+ <nav class="navbar navbar-expand-md navbar-dark bg-dark"></nav>
+<!-- Modal trigger button -->
+<button
+  type="button"
+  class="btn btn-primary btn-lg mt-3 ms-3"
+  data-bs-toggle="modal"
+  data-bs-target="#registerId"
+>
+  Launch
+</button>
+
+<!-- Modal Body -->
+<!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+<div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-md" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitleId">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">Bu normal bir modalın içeriğidir.</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Optional: Place to the bottom of scripts -->
+<!-- <script>
+  const myModal = new bootstrap.Modal(
+    document.getElementById("modalId"),
+    options,
+  );
+</script> -->
+
+
+<!-- corousel -->
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-4 mb-3">
+      <img src="../resimler/1.png" class="img-fluid rounded" alt="Resim 1">
+    </div>
+    
+    <div class="col-md-4 mb-3">
+      <img src="../resimler/2.png" class="img-fluid rounded" alt="Resim 2">
+    </div>
+    
+    <div class="col-md-4 mb-3">
+      <img src="../resimler/3.png" class="img-fluid rounded" alt="Resim 3">
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<hr>
+<div class="container mt-4">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner rounded shadow">
+          
+          <div class="carousel-item active">
+            <img src="../resimler/1.png" class="d-block w-100" alt="Slayt 1">
+          </div>
+          
+          <div class="carousel-item">
+            <img src="../resimler/2.png" class="d-block w-100" alt="Slayt 2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, exercitationem. Corporis neque reprehenderit ab ipsum tenetur ratione illum quis assumenda iure culpa, veritatis suscipit, perspiciatis rem quo possimus debitis ipsam.
+            Velit facilis vitae praesentium, animi blanditiis alias voluptatum repellat voluptate aut obcaecati mollitia tempora suscipit voluptas magni similique soluta illo accusantium possimus at neque fugiat aperiam sunt laudantium enim. Corrupti!</p>
+          </div>
+          
+          <div class="carousel-item">
+            <img src="../resimler/3.png" class="d-block w-100" alt="Slayt 3">
+          </div>
+          
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Önceki</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Sonraki</span>
+        </button>
+      </div>
+      </div>
+  </div>
+</div>
+
+<hr>
+
+<div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li
+      data-bs-target="#carouselId"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="First slide"
+    ></li>
+    <li
+      data-bs-target="#carouselId"
+      data-bs-slide-to="1"
+      aria-label="Second slide"
+    ></li>
+    <li
+      data-bs-target="#carouselId"
+      data-bs-slide-to="2"
+      aria-label="Third slide"
+    ></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img
+        src="../resimler/1.png"
+        class="w-100 d-block"
+        alt="First slide"
+      />
+    </div>
+    <div class="carousel-item">
+      <img
+        src="../resimler/2.png"
+        class="w-100 d-block"
+        alt="Second slide"
+      />
+    </div>
+    <div class="carousel-item">
+      <img
+        src="../resimler/3.png"
+        class="w-100 d-block"
+        alt="Third slide"
+      />
+    </div>
+  </div>
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselId"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselId"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Modal -->
+<!-- Modal trigger button -->
+
+
+
+<button
+  type="button"
+  class="btn btn-primary btn-lg"
+  data-bs-toggle="modal"
+  data-bs-target="#modalId"
+>
+  Launch
+</button>
+
+<!-- Modal Body -->
+<!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+<div
+  class="modal fade"
+  id="modalId"
+  tabindex="-1"
+  data-bs-backdrop="static"
+  data-bs-keyboard="false"
+  
+  role="dialog"
+  aria-labelledby="modalTitleId"
+  aria-hidden="true"
+>
+  <div
+    class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+    role="document"
+  >
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitleId">
+          Register
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">Register Data</div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-secondary"
+          data-bs-dismiss="modal">
+          Close
+        </button>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Optional: Place to the bottom of scripts
+<script>
+  const myModal = new bootstrap.Modal(
+    document.getElementById("modalId"),
+    options,
+  );
+</script> -->
+
+
+<hr>
+<!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">LOGO</a>
@@ -46,8 +273,11 @@
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
+        
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link text-warning fw-bold" href="#" data-bs-toggle="modal" data-bs-target="#registerId">
+            Register
+          </a>
         </li>
       </ul>
       <form class="d-flex">
@@ -58,6 +288,68 @@
   </div>
 </nav>
 
+<div class="modal fade" id="registerId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="registerTitleId" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="registerTitleId">Register</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">Register Data
+
+  <div class="form-group mb-3">
+<div class="col-sm-12 col-md-1 col-lg-11 ">
+  <label for="uname"><span class="text-uppercase">Name</span></label>
+</div>
+<div class="col-sm-12col-md-11 ">
+<input type="text" class="form-control" placeholder="adınız" id="uname" required autofocus="on">
+</div>
+</div>
+
+    <div class="form-group mb-3">
+<div class="col-sm-12 col-md-1 col-lg-11 ">
+  <label for="umail"><span class="text-uppercase">EMail</span></label>
+</div>
+
+
+<div class="col-sm-12col-md-11 ">
+<input type="text" class="form-control" placeholder="Email" id="umail" required>
+</div>
+</div>
+
+    <div class="form-group mb-3">
+<div class="col-sm-12 col-md-1 col-lg-11 ">
+  <label for="upassword"><span class="text-uppercase">Şifre</span></label>
+</div>
+
+
+<div class="col-sm-12col-md-11">
+<input type="password" class="form-control" placeholder="şifreniz" id="upassword" required>
+</div>
+
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <hr>
 <!-- dropdown -->
