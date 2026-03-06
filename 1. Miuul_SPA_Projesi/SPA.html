@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miuul SPA & Register Form Projesi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        /* Navbar yukarıda sabit kalacağı için bölümlere üstten boşluk verdik */
+        section {
+            padding-top: 100px;
+            padding-bottom: 80px;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example" tabindex="0" class="bg-light">
+
+    <nav id="navbar-example" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top miuul_navbar shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-uppercase" href="#">Miuul SPA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-uppercase" href="#homepage">Homepage</a></li>
+                    <li class="nav-item"><a class="nav-link text-uppercase" href="#aboutme">Aboutme</a></li>
+                    <li class="nav-item"><a class="nav-link text-uppercase" href="#newspaper">Newspaper</a></li>
+                    <li class="nav-item"><a class="nav-link text-uppercase" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link text-uppercase fw-bold text-warning" href="#mycv">MyCv (Kayıt)</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="homepage" class="d-flex align-items-center justify-content-center bg-white text-center">
+        <div class="container">
+            <h1 class="display-1 fw-bold text-dark">Hoşgeldiniz</h1>
+            <p class="lead text-muted">Miuul Single Page Application (SPA) Projesine Adım Attınız.</p>
+            <a href="#aboutme" class="btn btn-primary btn-lg mt-3 rounded-pill px-5 shadow-sm">Keşfetmeye Başla</a>
+        </div>
+    </section>
+
+    <section id="aboutme" class="bg-light">
+        <div class="container">
+            <div class="row mb-5 text-center">
+                <div class="col-12">
+                    <h2 class="display-4 text-capitalize fw-bold text-primary">about me</h2>
+                    <hr class="w-25 mx-auto text-primary">
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="../resimler/3.png" alt="Hakkımda" class="img-fluid rounded-4 shadow-lg">
+                </div>
+                <div class="col-md-6 px-md-4">
+                    <h3 class="mb-3 text-secondary">Merhaba, Ben Bir Frontend Geliştiricisiyim!</h3>
+                    <p class="lead text-muted">HTML, CSS, Bootstrap ve modern web teknolojileri kullanarak harika tasarımlar ortaya çıkarıyorum.</p>
+                    <p class="text-muted">Bu projede sayfa yenilenmeden, menü üzerinden akıcı bir şekilde gezebildiğimiz mükemmel bir mimari inşa ettik.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="newspaper" class="bg-white">
+        <div class="container">
+            <div class="row mb-5 text-center">
+                <div class="col-12">
+                    <h2 class="display-4 text-capitalize fw-bold text-primary">blog</h2>
+                    <hr class="w-25 mx-auto text-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 shadow-sm border-0 rounded-4">
+                        <img src="../resimler/3.png" class="card-img-top rounded-top-4" alt="Blog 1">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">HTML5 Yenilikleri</h5>
+                            <p class="card-text text-muted">Web dünyasındaki son gelişmeler...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 shadow-sm border-0 rounded-4">
+                        <img src="../resimler/3.png" class="card-img-top rounded-top-4" alt="Blog 2">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">CSS3 Animasyonları</h5>
+                            <p class="card-text text-muted">Sitenizi canlandıracak taktikler...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 shadow-sm border-0 rounded-4">
+                        <img src="../resimler/3.png" class="card-img-top rounded-top-4" alt="Blog 3">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Bootstrap 5 Gücü</h5>
+                            <p class="card-text text-muted">Responsive tasarımları hızlıca yapın...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 shadow-sm border-0 rounded-4">
+                        <img src="../resimler/3.png" class="card-img-top rounded-top-4" alt="Blog 4">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">SPA Mantığı</h5>
+                            <p class="card-text text-muted">Tek sayfa uygulamalarının avantajları...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-light">
+        <div class="container">
+            <div class="row mb-5 text-center">
+                <div class="col-12">
+                    <h2 class="display-4 text-capitalize fw-bold text-primary">contact</h2>
+                    <hr class="w-25 mx-auto text-primary">
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="ratio ratio-4x3 shadow-sm rounded-4 overflow-hidden">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.518605335198!2d28.97658731541349!3d41.01410197930034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9e7a2b291db%3A0xe54e15b57d0eb750!2sEmin%C3%B6n%C3%BC%2C%20R%C3%BCstem%20Pa%C5%9Fa%2C%20Fatih%2F%C4%B0stanbul!5e0!3m2!1str!2str!4v1683100000000!5m2!1str!2str" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6 px-md-5">
+                    <h3 class="mb-4 text-secondary">Bize Ulaşın</h3>
+                    <ul class="list-unstyled lead text-muted">
+                        <li class="mb-3">📍 <strong class="text-dark">Adres:</strong> Yazılım Vadisi, Frontend Sokak</li>
+                        <li class="mb-3">📞 <strong class="text-dark">Telefon:</strong> +90 555 123 45 67</li>
+                        <li class="mb-3">✉️ <strong class="text-dark">E-posta:</strong> info@miuulspa.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mycv" class="bg-dark text-white d-flex align-items-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    
+                    <div class="card shadow-lg border-0 rounded-4" style="background-color: #f8f9fa;">
+                        <div class="card-body p-5">
+                            
+                            <h1 class="text-center text-primary mb-2 fw-normal">Form Register</h1>
+                            <h2 class="text-center text-success mb-5 fw-normal">Hoşgeldiniz</h2>
+                            
+                            <form action="#!" method="get" id="register_id" name="register_name">
+                                
+                                <div class="row mb-3 align-items-center">
+                                    <div class="col-sm-4">
+                                        <label for="uname" class="col-form-label text-uppercase text-dark fw-bold">Username</label>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <input type="text" id="uname" required placeholder="Kullanıcı adınız" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3 align-items-center">
+                                    <div class="col-sm-4">
+                                        <label for="name" class="col-form-label text-uppercase text-dark fw-bold">Name</label>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <input type="text" id="name" required placeholder="Adınız" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3 align-items-center">
+                                    <div class="col-sm-4">
+                                        <label for="usurname" class="col-form-label text-uppercase text-dark fw-bold">Surname</label>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <input type="text" id="usurname" required placeholder="Soyadınız" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3 align-items-center">
+                                    <div class="col-sm-4">
+                                        <label for="uemail" class="col-form-label text-uppercase text-dark fw-bold">Email</label>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <input type="email" id="uemail" required placeholder="Kullanıcı Emailiniz" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-4 align-items-center">
+                                    <div class="col-sm-4">
+                                        <label for="upassword" class="col-form-label text-dark fw-bold">Password</label>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <input type="password" id="upassword" required placeholder="Kullanıcı Şifresi" class="form-control" minlength="3" maxlength="10">
+                                    </div>
+                                </div>
+
+                                <div class="row mt-4">
+                                    <div class="col-12 text-center">
+                                        <button type="reset" class="btn btn-danger px-4 me-2 shadow-sm">Temizle</button>
+                                        <button type="submit" class="btn btn-primary px-4 shadow-sm">Gönder</button>
+                                    </div>
+                                </div>
+                                
+                            </form>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
